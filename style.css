@@ -1,0 +1,93 @@
+
+body{
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Glass-effect{
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+    width: 900px;
+    height: 550px;
+    background: radial-gradient(rgba(0,0,0,0),rgba(255,255,255,0.6));
+    border-radius: 20px;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    box-shadow: 20px 10px 20px rgba(234, 250, 6, 0.6);
+}
+
+.logo{
+    color: #000;
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    color: #fff;
+}
+
+.info{
+    margin-left: 30px;
+    padding: 18px;
+}
+
+p{
+    color: #fff;
+}
+
+button{
+    cursor: pointer;
+    text-decoration: dotted;
+    padding: 6px 16px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+}
+
+p1{
+    color:rgb(238, 4, 168);
+}
+
+p2{
+    color: rgb(21, 241, 13);
+}
+
+p3{
+    color: rgba(250, 214, 10, 0.829);
+}
